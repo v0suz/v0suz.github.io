@@ -479,3 +479,9 @@ img{
 ::-webkit-scrollbar{
     width: 0px;
 }
+@media screen and (max-width: 768px){
+.home__title{
+    font-size:60px;
+    text-align:left;
+    }     
+}
