@@ -487,4 +487,7 @@ img{
 .home__title span{
     text-shadow:none;
     }
+.nav__logo{
+    font-family: Arial Black;
+    }
 }
