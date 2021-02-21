@@ -396,7 +396,6 @@ img{
         width: 64px;
         top: 3rem;
     }
-
     .nav{
         height: calc(var(--header-height) + 1rem);
     }
@@ -427,10 +426,6 @@ img{
         height: 100vh;
         grid-template-rows: 1.7fr 1fr;
         row-gap: 0;
-    }
-    .home__title{
-        font-size:40px;
-        text-align:center;
     }
     .home__img{
         width: 524px;
