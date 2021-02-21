@@ -189,7 +189,7 @@ img{
 }
 .home__title{
     align-self: flex-end;
-    font-size: 10px;
+    font-size: var(--big-font-size);
     color: var(--white-color);
     line-height: .8;
 }
