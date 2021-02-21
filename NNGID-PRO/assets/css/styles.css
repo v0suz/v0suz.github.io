@@ -416,6 +416,9 @@ img{
     .nav__link:hover{
         color: var(--first-color);
     }
+    .nav__logo{
+        font-family: 'Arial Black';
+    }
     .active::after{
         background-color: var(--white-color);
     }
