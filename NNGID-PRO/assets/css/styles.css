@@ -278,7 +278,7 @@ img{
 
 /* ===== PORTFOLIO =====*/
 .portfolio{
-    background-color: var(--first-color);
+    background-color: #EEEEE;
 }
 .portfolio__container{
     justify-items: center;
