@@ -481,8 +481,7 @@ img{
 }
 @media screen and (max-width: 768px){
 .home__title{
-    font-size:55px;
-    text-align:left;
+    font-size: calc(40px + 1rem);
     }
 .home__title span{
     text-shadow:none;
