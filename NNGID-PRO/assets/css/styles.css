@@ -249,8 +249,8 @@ img{
 }
 .social__button:hover{
     background-color: var(--first-color);
-    color:#fff;
-    transition: .2s
+    color: #000;
+    transition: .5s
 }
 .about__social a{
     text-align: center;
