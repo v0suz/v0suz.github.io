@@ -314,7 +314,8 @@ img{
     bottom: 0;
 }
 .portfolio__link-name{
-    color: var(--first-color);
+    color: #000;
+    font-family: Arial Black;
 }
 
 /* ===== CONTACT =====*/
