@@ -314,9 +314,7 @@ img{
     bottom: 0;
 }
 .portfolio__link-name{
-    color: var(--dark-color);
-    border: solid 2px black;
-
+    color: var(--first-color);
 }
 
 /* ===== CONTACT =====*/
