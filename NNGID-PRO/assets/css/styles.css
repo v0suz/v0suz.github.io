@@ -250,6 +250,7 @@ img{
 .social__button:hover{
     background-color: var(--first-color);
     color:#fff;
+    transition: .2s
 }
 .about__social a{
     text-align: center;
