@@ -247,6 +247,10 @@ img{
     color: #000;
     padding: 10px;
 }
+.social__button:hover{
+    background-color: var(--first-color);
+    color:#fff;
+}
 .about__social a{
     text-align: center;
 }
