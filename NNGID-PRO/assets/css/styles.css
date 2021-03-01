@@ -280,20 +280,6 @@ img{
 .skills__img img{
     border-radius: .5rem;
 }
-.skills__button{
-    border: solid 2px var(--first-color);
-    color: #000;
-    padding: 10px;
-}
-.skills__button:hover{
-    background-color: var(--first-color);
-    color: #000;
-    transition: .5s
-}
-.about__skills a{
-    text-align: center;
-}
-
 /* ===== PORTFOLIO =====*/
 .portfolio{
     background-color: #6B72AB;
