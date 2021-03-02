@@ -298,7 +298,7 @@ img{
     bottom: 0;
 }
 .skills__link-name{
-    color: var(--first-color);
+    color: #000;
     border: solid 2px var(--dark-color);
     padding: 5px;
 }
