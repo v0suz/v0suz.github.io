@@ -298,8 +298,8 @@ img{
     bottom: 0;
 }
 .skills__link-name{
-    color: var(--dark-color);
-    border: solid 2px black;
+    color: var(--first-color);
+    border: solid 2px var(--first-color);
 }
 .skills__img{
     position: relative;
