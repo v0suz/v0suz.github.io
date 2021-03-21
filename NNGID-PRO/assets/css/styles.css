@@ -575,9 +575,19 @@ img{
         opacity: 1;
     }
 }
-
-@media screen and(max-width: 768px){
-    .loader .intro h1 {
-        font-size: 10px;
+@keyframes animatedBackground2 {
+    from {
+        background-size: 760%;
+    }
+    to {
+        background-size: 210%;
+    }
+}
+@keyframes animatedBackground1 {
+    from {
+        background-size: 460%;
+    }
+    to {
+        background-size: 110%;
     }
 }
