@@ -107,7 +107,7 @@ anime
 
 TweenMax.to(".loader", 2.2, {
     delay: 5,
-    top: "-100%",
+    top: "-150%",
     ease: Expo.easeInOut
 });
 
