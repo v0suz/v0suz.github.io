@@ -125,3 +125,11 @@ TweenMax.from(".nav__toggle", 2, {
     ease: Expo.easeInOut
 });
 
+TweenMax.from(".nav__list", 2, {
+    delay: 6,
+    y: 10,
+    opacity: 0,
+    ease: Expo.easeInOut
+});
+
+
