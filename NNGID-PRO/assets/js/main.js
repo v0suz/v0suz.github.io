@@ -111,7 +111,7 @@ TweenMax.to(".loader", 2.2, {
     ease: Expo.easeInOut
 });
 
-TweenMax.from(".logo", 2, {
+TweenMax.from(".nav__logo", 2, {
     delay: 6,
     y: 10,
     opacity: 0,
