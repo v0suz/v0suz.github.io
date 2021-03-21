@@ -575,24 +575,4 @@ img{
         opacity: 1;
     }
 }
-@keyframes animatedBackground2 {
-    from {
-        background-size: 760%;
-    }
-    to {
-        background-size: 210%;
-    }
-}
-@keyframes animatedBackground1 {
-    from {
-        background-size: 460%;
-    }
-    to {
-        background-size: 110%;
-    }
-}
-@media screen and(max-width: 768px){
-    .loader{
-        display: none;
-    }
-}
+
