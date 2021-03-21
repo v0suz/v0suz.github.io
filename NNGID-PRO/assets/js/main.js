@@ -118,11 +118,10 @@ TweenMax.from(".logo", 2, {
     ease: Expo.easeInOut
 });
 
-TweenMax.from(".l-header", 2, {
+TweenMax.from(".nav__toggle", 2, {
     delay: 6,
     y: 10,
     opacity: 0,
     ease: Expo.easeInOut
 });
-
 
