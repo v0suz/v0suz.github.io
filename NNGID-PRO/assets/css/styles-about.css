@@ -8,7 +8,7 @@
 
 /*===== Colores =====*/
 :root{
-    --first-color: #E89A5D;
+    --first-color: #4A69FF;
     --white-color: #000;
     --dark-color: #2A3B47;
     --text-color: #697477;
@@ -175,7 +175,6 @@ img{
     top: 2rem;
     background-color: var(--first-color);
 }
-
 /*===== HOME =====*/
 .home{
     position: relative;
@@ -210,7 +209,6 @@ img{
     bottom: 0;
     width: 295px;
 }
-
 /* ===== ABOUT =====*/
 .about{
     background-color: #fff;
@@ -258,7 +256,6 @@ img{
 .about__social a{
     text-align: center;
 }
-
 /* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
@@ -301,11 +298,8 @@ img{
     bottom: 0;
 }
 .skills__link-name{
-    background-color: #000;
-    color: #fff;
-    border: solid 2px #000;
+    color: black;
     padding: 5px;
-    border-radius:12px;
 }
 .skills__img{
     position: relative;
@@ -313,7 +307,7 @@ img{
 }
 /* ===== PORTFOLIO =====*/
 .portfolio{
-    background-color:;
+    background-color: #E5F0FF;
 }
 .portfolio__container{
     justify-items: center;
@@ -349,7 +343,7 @@ img{
 }
 /* ===== FOOTER=====*/
 .footer{
-    background-color: #F1F2F2;
+    background-color: #B7D4FF;
 }
 .footer__container{
     row-gap: 2rem;
@@ -497,54 +491,29 @@ img{
     text-align: center;
     }
 }
-/* ===== loader =====*/
-.loader {
-    position: fixed;
-    width: 100%;
-    height: 100vh;
-    background: #fff;
-    z-index: 2;
-    overflow: hidden;
-}
-
-.loader marquee {
-    opacity: 0.2;
-    text-transform: uppercase;
-    line-height: 180px;
-    margin: 0;
-    padding: 0;
-    color: #646464;
-    font-size: 200px;
-    font-family: "Cinzel";
-}
-
-.loader .intro {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
+/* ===== History city =====*/
+.section-title-history{
+    position: relative;
+    font-size: var(--h2-font-size);
+    color: var(--dark-color);
+    margin: var(--mb-4) 0;
     text-align: center;
+    top: 50px;
 }
-
-.loader .intro h1 {
-    font-size: 134px;
-    text-transform: uppercase;
-    font-weight: 200;
-    color: #000;
-    font-family: 'Cosandra';
+.section-title-history::after{
+    position: absolute;
+    content: "";
+    width: 82px;
+    height: .18rem;
+    left: 0;
+    right: 0;
+    margin: auto;
+    top: 3rem;
+    background-color: var(--first-color);
 }
-
-.intro-title .letter {
-    display: inline-block;
-    line-height: 1em;
-}
-@keyframes blinker {
-    50% {
-        opacity: 1;
-    }
-}
-@media screen and(min-width: 768px){
-    .loader marquee {
-        display: block;
-    }
+.about__img-history{
+    display: flex;
+    justify-content: center;
+    padding-top: 1rem;
+    overflow: hidden;
 }

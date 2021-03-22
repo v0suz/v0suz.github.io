@@ -73,7 +73,7 @@ sr.reveal('.portfolio__img', {interval: 200})
 sr.reveal('.contact__subtitle', {})
 sr.reveal('.contact__text', {interval: 200})
 sr.reveal('.contact__input', {delay: 400})
-sr.reveal('.contact__button', {delay: 600});
+sr.reveal('.contact__button', {delay: 600})
 
 var textWrapper = document.querySelector(".intro-title");
 textWrapper.innerHTML = textWrapper.textContent.replace(
@@ -111,6 +111,13 @@ TweenMax.to(".loader", 2.2, {
     ease: Expo.easeInOut
 });
 
+TweenMax.from(".nav__menu", 2, {
+    delay: 6,
+    y: 10,
+    opacity: 0,
+    ease: Expo.easeInOut
+});
+
 TweenMax.from(".nav__logo", 2, {
     delay: 6,
     y: 10,
@@ -124,12 +131,3 @@ TweenMax.from(".nav__toggle", 2, {
     opacity: 0,
     ease: Expo.easeInOut
 });
-
-TweenMax.from(".nav__list", 2, {
-    delay: 6,
-    y: 10,
-    opacity: 0,
-    ease: Expo.easeInOut
-});
-
-
