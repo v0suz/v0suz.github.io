@@ -421,11 +421,11 @@ img{
         padding: 4rem 0;
     }
     .about__img{
-        width: 200px;
-        height: 200px;
+        width: 100px;
+        height: 100px;
     }
     .about__img img{
-        width: 165px;
+        width: 65px;
     }
 
     .skills__container{
