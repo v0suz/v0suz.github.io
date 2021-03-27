@@ -90,27 +90,32 @@ nav {
 }
 
 .container__item-1 {
-    background: url(assets/img/work1.jpg) no-repeat 50% 50%;
+    background: no-repeat 50% 50%;
     background-size: cover;
+}
+.project__container-images p{
+    font-family: Calibri;
+    font-size: 18px;
+    text-align: center;
 }
 
 .container__item-2 {
-    background: url(../images/img-two.jpeg) no-repeat 50% 50%;
+    background: no-repeat 50% 50%;
     background-size: cover;
 }
 
 .container__item-3 {
-    background: url(../images/img-three.jpeg) no-repeat 50% 50%;
+    background: no-repeat 50% 50%;
     background-size: cover;
 }
 
 .container__item-4 {
-    background: url(../images/img-four.jpeg) no-repeat 50% 50%;
+    background: no-repeat 50% 50%;
     background-size: cover;
 }
 
 .container__item-5 {
-    background: url(../images/img-five.jpeg) no-repeat 50% 50%;
+    background: no-repeat 50% 50%;
     background-size: cover;
 }
 
@@ -305,7 +310,11 @@ p.about__container-link {
     .menu__logo, .menu__items-link {
         padding: 20px;
     }
-    .project__container-title h1{
-        font-size: 50px;
+    .project__container-images img{
+        width: 90%;
+    }
+    .project-next-link{
+        position: relative;
+        top: 20px;
     }
 }
