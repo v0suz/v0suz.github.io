@@ -5,6 +5,7 @@
 
 body {
     background: #fff;
+    font-family: "Neue Montreal";
 }
 
 .home {
@@ -76,7 +77,7 @@ nav {
     left: 40px;
     bottom: -40px;
     color: #000;
-    font-family: Calibri;
+    font-family: "GrandSlang Roman";
     font-weight: lighter;
     font-size: 64px;
 }
@@ -139,6 +140,7 @@ nav {
     width: 50%;
     margin: 180px 0 100px 100px;
     padding: 40px;
+    /* border: 1px solid #525252; */
 }
 
 .about__container p {
@@ -203,14 +205,14 @@ p.about__container-link {
 
 .project__container-title h1{
     color: #000;
-    font-family: Calibri;
+    font-family: "GrandSlang Roman";
     font-size: 140px;
 }
 
 .project__container-subtitle {
     margin: 20px 0;
-    font-family: Calibri;
-    font-size: 20px;
+    font-family: "Neue Montreal";
+    font-size: 16px;
 }
 
 .project__container-images {
@@ -300,10 +302,4 @@ p.about__container-link {
         top: 0;
         left: 0;
     }
-}
-@media (max-width: 768px){
-    .menu__logo, .menu__items-link {
-        padding: 30px;
-    }
-    
 }

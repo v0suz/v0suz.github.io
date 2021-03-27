@@ -79,7 +79,7 @@ nav {
     left: 40px;
     bottom: -40px;
     color: #fff;
-    font-family: "GrandSlang Roman";
+    font-family: Calibri;
     font-weight: lighter;
     font-size: 64px;
 }
@@ -150,7 +150,7 @@ nav {
 }
 
 .about__container p span {
-    font-family: "GrandSlang Roman";
+    font-family: Calibri;
 }
 
 .about__container-contact-link a {
@@ -200,13 +200,13 @@ p.about__container-link {
 
 .project__container-title h1{
     color: #000;
-    font-family: "Calibri";
+    font-family: Calibri;
     font-size: 140px;
 }
 
 .project__container-subtitle {
     margin: 20px 0;
-    font-family: "Calibri";
+    font-family: Calibri;
     font-size: 20px;
 }
 
@@ -265,7 +265,7 @@ p.about__container-link {
 .project-next-link a {
     color: #000;
     text-decoration: none;
-    font-family: "GrandSlang Roman";
+    font-family: Calibri;
     font-size: 160px;
 }
 
@@ -301,5 +301,8 @@ p.about__container-link {
 @media (max-width: 768px){
     .project-next-link a{
         font-size: calc(24px + (16 + 16 * 0.7) * ((100vw - 320px) / 1280));
+    }
+    .menu__logo, .menu__items-link {
+        padding: 20px;
     }
 }

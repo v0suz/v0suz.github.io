@@ -476,10 +476,11 @@ img{
 @media screen and (max-width: 768px){
 .home__title{
     font-size: calc(40px + 1rem);
-    text-align: left;
+    text-align: center;
     }
 .home__title span{
     text-shadow:none;
+    text-align: center;
     }
 .nav__logo{
     font-family: Arial Black;
