@@ -218,8 +218,8 @@ img{
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-    width: 220px;
-    height: 220px;
+    width: 320px;
+    height: 320px;
     overflow: hidden;
 }
 .about__img img{
