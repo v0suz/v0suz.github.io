@@ -218,12 +218,12 @@ img{
     display: flex;
     justify-content: center;
     padding-top: 1rem;
-    width: 420px;
+    width: 440px;
     height: 400px;
     overflow: hidden;
 }
 .about__img img{
-    width: 300px;
+    width: 320px;
 }
 .about__subtitle{
     font-size: var(--h2-font-size);
