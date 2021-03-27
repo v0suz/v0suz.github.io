@@ -305,4 +305,7 @@ p.about__container-link {
     .menu__logo, .menu__items-link {
         padding: 20px;
     }
+    .project__container-title h1{
+        font-size: 120px;
+    }
 }
