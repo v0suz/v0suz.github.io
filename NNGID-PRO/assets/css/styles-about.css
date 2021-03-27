@@ -516,7 +516,10 @@ img{
 }
 @media screen(max-width: 768px){
     .about__img-history{
-        width:80%;
-        height:60%;
+        width: 100px;
+        height: 100px; 
     }  
+    .about__img-history img{
+        width:65px;
+    }
 }
