@@ -205,14 +205,14 @@ p.about__container-link {
 
 .project__container-title h1{
     color: #000;
-    font-family: "GrandSlang Roman";
+    font-family: Calibri;
     font-size: 140px;
 }
 
 .project__container-subtitle {
     margin: 20px 0;
-    font-family: "Neue Montreal";
-    font-size: 16px;
+    font-family: Calibri;
+    font-size: 20px;
 }
 
 .project__container-images {
@@ -302,4 +302,10 @@ p.about__container-link {
         top: 0;
         left: 0;
     }
+}
+@media (max-width: 768px){
+    .menu__logo, .menu__items-link {
+        padding: 30px;
+    }
+    
 }
