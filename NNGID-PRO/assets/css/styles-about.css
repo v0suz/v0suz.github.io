@@ -517,5 +517,6 @@ img{
 @media screen(max-width: 768px){
     .about__img-history{
         width:80%;
+        height:60%;
     }  
 }
