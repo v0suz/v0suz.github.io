@@ -34,8 +34,6 @@
     --mb-3: 1.5rem;
     --mb-4: 2rem;
 }
-
-
 :root{
     --z-fixed: 100;
 }
@@ -70,8 +68,6 @@ img{
     height: auto;
     display: block;
 }
-
-
 .section{
     padding: 3rem 0;
 }
@@ -93,7 +89,6 @@ img{
     top: 2rem;
     background-color: var(--first-color);
 }
-
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -155,7 +150,6 @@ img{
 .show{
     right: 0;
 }
-
 .active::after{
     position: absolute;
     content: "";
@@ -240,7 +234,6 @@ img{
 .about__social a{
     text-align: center;
 }
-/* ===== SKILLS =====*/
 .skills__container{
     row-gap: 2rem;
 }
@@ -350,7 +343,6 @@ img{
 .footer__social:hover{
     color: var(--first-color);
 }
-
 @media screen and (min-width: 768px){
     body{
         margin: 0;
@@ -489,10 +481,3 @@ img{
     top: 3rem;
     background-color: var(--first-color);
 }
-.about__img-history{
-    display: flex;
-    justify-content: center;
-    padding-top: 1rem;
-    overflow: hidden;
-}
-
