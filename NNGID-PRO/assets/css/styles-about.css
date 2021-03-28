@@ -399,6 +399,7 @@ img{
         padding: 4rem 0;
     }
     .about__img{
+        position:relative;
         width:auto;
         height:auto;
     }
