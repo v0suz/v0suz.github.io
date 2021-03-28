@@ -39,8 +39,6 @@
 :root{
     --z-fixed: 100;
 }
-
-
 *,::before,::after{
     box-sizing: border-box;
 }
@@ -96,7 +94,6 @@ img{
     background-color: var(--first-color);
 }
 
-/*===== LAYOUT =====*/
 .bd-grid{
     max-width: 1024px;
     display: grid;
@@ -115,7 +112,6 @@ img{
     background-color: #fff;
 }
 
-/*===== NAV =====*/
 .nav{
     height: var(--header-height);
     display: flex;
@@ -171,7 +167,6 @@ img{
     top: 2rem;
     background-color: var(--first-color);
 }
-/*===== HOME =====*/
 .home{
     position: relative;
     background-color: var(--first-color);
@@ -205,7 +200,6 @@ img{
     bottom: 0;
     width: 295px;
 }
-/* ===== ABOUT =====*/
 .about{
     background-color: #fff;
 }
@@ -333,7 +327,6 @@ img{
     color: var(--dark-color);
 
 }
-/* ===== FOOTER=====*/
 .footer{
     background-color: #B7D4FF;
 }
@@ -480,7 +473,6 @@ img{
     text-align: center;
     }
 }
-/* ===== History city =====*/
 .section-title-history{
     position: relative;
     font-size: var(--h2-font-size);
