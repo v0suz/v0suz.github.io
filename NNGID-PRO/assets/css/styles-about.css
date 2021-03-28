@@ -416,6 +416,10 @@ img{
         text-align: initial;
         padding: 4rem 0;
     }
+    .about__img{
+        width:auto;
+        height:auto;
+    }
     .skills__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
