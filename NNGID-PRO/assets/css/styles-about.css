@@ -416,10 +416,6 @@ img{
         text-align: initial;
         padding: 4rem 0;
     }
-    .about__img img{
-        width: 100%;
-    }
-
     .skills__container{
         grid-template-columns: repeat(2, 1fr);
         align-items: center;
@@ -507,11 +503,7 @@ img{
     overflow: hidden;
 }
 @media screen(max-width: 768px){
-    .about__img-history{
-        width: 100px;
-        height: 100px; 
-    }  
-    .about__img-history img{
-        width:65px;
+    .about__img img{
+        width:70%;
     }
 }
