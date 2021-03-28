@@ -502,7 +502,7 @@ img{
     padding-top: 1rem;
     overflow: hidden;
 }
-@media screen(max-width: 768px){
+@media screen(min-width: 768px){
     .about__img img{
         width:70%;
     }
