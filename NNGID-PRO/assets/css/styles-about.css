@@ -152,12 +152,10 @@ img{
     cursor: pointer;
 }
 
-/*=== Show menu ===*/
 .show{
     right: 0;
 }
 
-/*Active menu*/
 .active::after{
     position: absolute;
     content: "";
@@ -353,7 +351,6 @@ img{
     color: var(--first-color);
 }
 
-/* ===== MEDIA QUERIES =====*/
 @media screen and (min-width: 768px){
     body{
         margin: 0;
