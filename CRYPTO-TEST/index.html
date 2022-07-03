@@ -3,32 +3,8 @@
     <head>
         <script src="https://cdn.ethers.io/lib/ethers-5.2.umd.min.js" type="application/javascript"></script>
         <script src="main.js" type="application/javascript"></script>
-        <style>
-            @import url('https://fonts.googleapis.com/css2?&family=Kanit:wght@500&display=swap');
-            body{
-                margin: 0px;
-            }
-            span, p {
-                color:gainsboro;
-                font-size: 2rem;
-                font-family: 'Kanit', sans-serif;
-            }
-            .main-info {
-                display: flex;
-                height: 100vh;
-                align-items: center;
-                justify-content: center;
-                background-color: black;
-                margin: 0px;
-            }
-            @media (max-width: 768px) {
-                .main-info {
-                    width: 100%;
-                    background-color: black;
-                    margin: 0px;
-                }
-            }
-        </style>
+        <script src="test.js" type="application/javascript"></script>
+        <link rel="stylesheet" href="style.css">
         <title>PancakeSwap Router - Price check</title>
     </head>
     <body>
@@ -66,7 +42,11 @@
                     <td><span id="main-text-bunny">0.00</span></td>
                     <td><p>BUNNY</p></td>
                 </tr>
+                <tr>
+                    <td><span id="main-text-wbtc">0.00</span></td>
+                    <td><p>WBTC</p></td>
+                </tr>
             </table>
-        </div>
+        </div>                                          
     </body>
 </html>

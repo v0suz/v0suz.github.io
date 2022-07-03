@@ -1,4 +1,3 @@
-
 const CONTRACTS = {
     'PCS_ROUTER' : '0x10ed43c718714eb63d5aa57b78b54704e256024e',
     'WBNB' : '0xbb4cdb9cbd36b01bd1cbaebf2de08d9173bc095c',
@@ -11,8 +10,6 @@ const CONTRACTS = {
     'CAKE' : '0x0E09FaBB73Bd3Ade0a17ECC321fD13a19e81cE82',
     'ALPACA' : '0x8F0528cE5eF7B51152A59745bEfDD91D97091d2F',
     'BUNNY' : '0xC9849E6fdB743d08fAeE3E34dd2D1bc69EA11a51',
-    
-    
 
 }
 const provider = new ethers.providers.JsonRpcProvider('https://bsc-dataseed.binance.org/');
@@ -36,3 +33,5 @@ const updatePrice = async function(elementId, contracts) {
 }
 
 main();
+
+
