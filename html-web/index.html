@@ -9,6 +9,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/gsap.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.0/ScrollTrigger.min.js"></script>
+    <script src="https://code.jquery.com/jquery-3.6.0.js" integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
     
     <title>Document</title>
 </head>
@@ -23,14 +24,20 @@
             <div class="container is--nav">
                 <div class="nav_top">
                     <div class="nav_logo-contain">
-                        <a href="" class="nav_logo">
+                        <a href="" class="nav_logo w-inline-block">
                             MinimalGoods
                         </a>
                     </div>
                     <div class="nav_side">
-                        <a href="" class="nav_link"><p class="nav_link-text">Articles</p></a>
-                        <a href="" class="nav_link"><p class="nav_link-text">Shop</p></a>
-                        <a href="" class="nav_link"><p class="nav_link-text">Submit</p></a>
+                        <a href="" class="nav_link">
+                            <p class="nav_link-text">Articles</p>
+                        </a>
+                        <a href="" class="nav_link">
+                            <p class="nav_link-text">Shop</p>
+                        </a>
+                        <a href="" class="nav_link">
+                            <p class="nav_link-text">Submit</p>
+                        </a>
                     </div>
                     <div class="nav_side is--right">
                         <p class="nav_link">(2021), All rights reserved</p>
@@ -39,7 +46,7 @@
             </div>
         </section>
 
-        <section class="section is--header">
+        <div class="section is--header">
             <div class="container is--header">
                 <div class="header_text">
                     <div class="header_text-wrap">
@@ -62,7 +69,7 @@
                             <h1>design</h1>
                     </div>
                 </div>
-                    <div class="stcky-circle_wrap">
+                    <div class="sticky-circle_wrap">
                         <div class="sticky-circle">
                             <div class="sticky-circle_element">
                                 <img src="./photos/61a9acabe07361ebdee22b3a_image3.jpeg" alt="">
@@ -71,15 +78,127 @@
                     </div>
                 </div>
             </div>
-        </section>
+        </div>
 
-        <section class="is--catories">
-            <div class="container is--catories">
-                
+        <div class="section is--catories">
+            <div class="container is--categories">
+                <div class="categories">
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Home
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Office
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Kitchen
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Fashion
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Furniture
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Books
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Lighting
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Tech
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Decor
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                Bath & Bed
+                            </p>
+                        </div>
+                    </a>
+                    <a href="" class="categories_link w-inline-block">
+                        <div class="categories_border">
+                            <p class="categories_link-text">
+                                More
+                            </p>
+                        </div>
+                    </a>
+                </div>
             </div>
-        </section>
+        </div>
+
+        <div class="section is--grid">
+            <div class="container is--grid">
+                <div class="grid_text-wrap w-dyn-lisl">
+                    <div role = "list" class="grid_text-list w-dyn-items">
+                        <div role = "listitem"class="grid_text-item w-dyn-item is--active">
+                            <p class="grid_text-title">
+                                Furniture
+                            </p>
+                        </div>
+                        <div role = "listitem"class="grid_text-item w-dyn-item is--active">
+                            <p class="grid_text-title">
+                                Decor
+                            </p>
+                        </div>
+                        <div role = "listitem"class="grid_text-item w-dyn-item is--active">
+                            <p class="grid_text-title">
+                                Office
+                            </p>
+                        </div>
+                        <div role = "listitem"class="grid_text-item w-dyn-item is--active">
+                            <p class="grid_text-title">
+                                Tech
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="grid_wrapper-contain">
+
+                </div>
+            </div>
+        </div>
 
     </div>
-    <script src="script.js"></script>
+    <script src="./script.js"></script>
+    <script src="./test.js"></script>
 </body>
 </html>
